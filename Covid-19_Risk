@@ -1,0 +1,6 @@
+age = input("Are you a cigarette addict older than 75 years old?: ") # can be assigned only True/False
+chronic = input("Do you have a severe chronic disease?: ") # can be assigned only True/False
+immune = input("Is your immune system too weak?: ") # can be assigned only True/False 
+risk = (age or chronic or immune)
+print(risk)
+
